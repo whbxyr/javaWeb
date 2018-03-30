@@ -23,7 +23,7 @@ public class Login extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
         // 设置返回类型
-        res.setContentType("text/json; charset=utf-8");
+        res.setContentType("application/json; charset=utf-8");
         res.setCharacterEncoding("UTF-8");
 
         req.getSession().setAttribute("isLogin","yes");
