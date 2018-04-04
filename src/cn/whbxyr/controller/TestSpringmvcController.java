@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Controller
-@RequestMapping(value = "")
+@RequestMapping(value = "/spring")
 public class TestSpringmvcController {
 
     private UserDetail getUser() {
